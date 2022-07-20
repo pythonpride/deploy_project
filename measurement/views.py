@@ -24,6 +24,3 @@ class CreateMeasureView(CreateAPIView):
     serializer_class = MeasurementSerializer
 
 
-# class AllView(ListCreateAPIView):
-#     queryset = Sensor.objects.all()
-#     serializer_class = 
